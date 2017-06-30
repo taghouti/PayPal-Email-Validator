@@ -7,10 +7,10 @@ This script Help you To check if an email is a Valid PayPal account
 
 ## Command Without a PROXY LIST:
 
-Save The Emails to test in a trxt file (ie: list.txt) and Run:
+Save The Emails to test in a text file (ie: list.txt) and Run:
 
 
-php Paypal_Validator.php list.txt
+    php Paypal_Validator.php list.txt
 
 
 ## Command With a PROXY LIST:
@@ -19,6 +19,6 @@ save a valid proxy list in a text file (ie: proxy.txt) like this IP:PORT (ie For
 
 run this Command line 
 
-php Paypal_Validator.php list.txt proxy.txt
+    php Paypal_Validator.php list.txt proxy.txt
 
 
